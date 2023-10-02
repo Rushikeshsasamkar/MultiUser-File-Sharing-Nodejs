@@ -1,0 +1,70 @@
+.main{
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.drag-area{
+    border: 2px dashed rgba(8, 56, 119,0.8);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 48px;
+  }
+  .drag-area.active{
+    border: 2px solid rgba(8, 56, 119,0.8);
+  }
+  .drag-area .icon{
+    font-size: 100px;
+    color: rgba(8, 56, 119,0.8);
+  }
+  .drag-area header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(8, 56, 119,0.8);
+  }
+  .drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(8, 56, 119,0.8);
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: rgba(8, 56, 119,0.8);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type=text]{
+    margin: 20px 0;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #5256ad;
+    border-radius: 5px;
+  }
+  .dropdown option{
+    padding: 10px 25px;
+    border-bottom: 1px solid #000;
+  }
+
+  .message{
+    padding: 12px;
+  }
+  .message span {
+    color: rgb(6, 37, 80);
+    font-size: 18px;
+  }
